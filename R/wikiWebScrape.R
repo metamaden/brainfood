@@ -1,4 +1,5 @@
 # purpose: scrape main article text from wikipedia via Google search and R XML parser library
+# query = text to query (passed to Google)
 
 wikiWebScrape <- function(query){
   require(XML)
